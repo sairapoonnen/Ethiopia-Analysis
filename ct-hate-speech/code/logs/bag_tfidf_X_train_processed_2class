@@ -1,0 +1,24 @@
+2021-02-21 05:11:41,243 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/X_train_processed_2class.json
+2021-02-21 05:11:41,243 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/y_train_2class.json
+2021-02-21 05:11:41,245 INFO     Data loaded
+2021-02-21 05:11:41,245 INFO     Num data points: 3446
+2021-02-21 05:11:41,245 INFO     Training data size : 2756
+2021-02-21 05:11:41,245 INFO     Testing data size: 690
+2021-02-21 05:11:41,246 INFO     Y encoded
+2021-02-21 05:11:41,246 INFO     Data vectorized using Tfidf Vectorizer
+2021-02-21 05:11:41,400 INFO     Feature names : ['ahahaሟርተኛ', 'ሀላፊ', 'ሀላፊነት', 'ሀረር', 'ሀሪፍ', 'ሀሰተኛ', 'ሀሰት', 'ሀሳብ', 'ሀሴት', 'ሀቀኛ', 'ሀቅ', 'ሀበሻ', 'ሀብታም', 'ሀብት', 'ሀትሪክ', 'ሀዋርያ', 'ሀዋሳ', 'ሀውልት', 'ሀዘን', 'ሀያል'] ...
+2021-02-21 05:11:41,401 INFO     Vectorized X train dimensions: (2756, 5000)
+2021-02-21 05:11:41,401 INFO     Vectorized X test dimensions: (690, 5000)
+2021-02-21 05:11:41,401 INFO     After resampling: 
+ 	 X data size  : (2756, 5000) y data size : (2756,)
+2021-02-21 05:11:42,730 INFO     classifier: Decision Tree Bagging Classifier
+2021-02-21 05:11:42,733 INFO     
+              precision    recall  f1-score   support
+
+           0       0.61      0.95      0.74       361
+           1       0.85      0.32      0.47       329
+
+    accuracy                           0.65       690
+   macro avg       0.73      0.63      0.60       690
+weighted avg       0.72      0.65      0.61       690
+

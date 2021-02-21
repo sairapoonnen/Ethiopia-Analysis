@@ -1,0 +1,68 @@
+2021-02-21 05:05:25,036 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/X_train_processed_2class.json
+2021-02-21 05:05:25,037 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/y_train_2class.json
+2021-02-21 05:05:25,038 INFO     Data loaded
+2021-02-21 05:05:25,038 INFO     Num data points: 3446
+2021-02-21 05:05:25,038 INFO     Training data size : 2756
+2021-02-21 05:05:25,038 INFO     Testing data size: 690
+2021-02-21 05:05:25,039 INFO     Y encoded
+2021-02-21 05:05:25,040 INFO     Data vectorized using Tfidf Vectorizer
+2021-02-21 05:05:25,170 INFO     Feature names : ['ahahaሟርተኛ', 'ሀላፊ', 'ሀላፊነት', 'ሀረር', 'ሀሪፍ', 'ሀሰተኛ', 'ሀሰት', 'ሀሳብ', 'ሀሴት', 'ሀቀኛ', 'ሀቅ', 'ሀበሻ', 'ሀብታም', 'ሀብት', 'ሀትሪክ', 'ሀዋርያ', 'ሀዋሳ', 'ሀውልት', 'ሀዘን', 'ሀያል'] ...
+2021-02-21 05:05:25,170 INFO     Vectorized X train dimensions: (2756, 5000)
+2021-02-21 05:05:25,170 INFO     Vectorized X test dimensions: (690, 5000)
+2021-02-21 05:05:25,170 INFO     After resampling: 
+ 	 X data size  : (2756, 5000) y data size : (2756,)
+2021-02-21 05:07:27,200 INFO     classifier: SVM Classifier (Grid search)
+2021-02-21 05:07:27,204 INFO     
+              precision    recall  f1-score   support
+
+           0       0.71      0.87      0.78       361
+           1       0.81      0.61      0.70       329
+
+    accuracy                           0.75       690
+   macro avg       0.76      0.74      0.74       690
+weighted avg       0.76      0.75      0.74       690
+
+2021-02-21 05:07:27,204 INFO     Grid SVM Best Parameters: {'C': 1, 'gamma': 1, 'kernel': 'rbf'}
+2021-02-21 05:07:27,224 INFO     
+params mean_test_score
+"{'C': 0.01, 'gamma': 10, 'kernel': 'linear'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 10, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 1, 'kernel': 'linear'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}" 0.5348332412740998
+"{'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 0.1, 'gamma': 10, 'kernel': 'linear'}" 0.6124792866724533
+"{'C': 0.1, 'gamma': 10, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}" 0.6124792866724533
+"{'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}" 0.5391883005865489
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}" 0.6124792866724533
+"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}" 0.6124792866724533
+"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 1, 'gamma': 10, 'kernel': 'linear'}" 0.7322194166074858
+"{'C': 1, 'gamma': 10, 'kernel': 'rbf'}" 0.5413655014597964
+"{'C': 1, 'gamma': 1, 'kernel': 'linear'}" 0.7322194166074858
+"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}" 0.7376627475735816
+"{'C': 1, 'gamma': 0.1, 'kernel': 'linear'}" 0.7322194166074858
+"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}" 0.6846859465004339
+"{'C': 1, 'gamma': 0.01, 'kernel': 'linear'}" 0.7322194166074858
+"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}" 0.5348332412740998
+"{'C': 10, 'gamma': 10, 'kernel': 'linear'}" 0.7024652147610405
+"{'C': 10, 'gamma': 10, 'kernel': 'rbf'}" 0.544630316420737
+"{'C': 10, 'gamma': 1, 'kernel': 'linear'}" 0.7024652147610405
+"{'C': 10, 'gamma': 1, 'kernel': 'rbf'}" 0.7325823930140193
+"{'C': 10, 'gamma': 0.1, 'kernel': 'linear'}" 0.7024652147610405
+"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7191588416318156
+"{'C': 10, 'gamma': 0.01, 'kernel': 'linear'}" 0.7024652147610405
+"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}" 0.6955699781688103
+"{'C': 100, 'gamma': 10, 'kernel': 'linear'}" 0.6781569741445066
+"{'C': 100, 'gamma': 10, 'kernel': 'rbf'}" 0.544630316420737
+"{'C': 100, 'gamma': 1, 'kernel': 'linear'}" 0.6781569741445066
+"{'C': 100, 'gamma': 1, 'kernel': 'rbf'}" 0.72858965254215
+"{'C': 100, 'gamma': 0.1, 'kernel': 'linear'}" 0.6781569741445066
+"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}" 0.7035580893763644
+"{'C': 100, 'gamma': 0.01, 'kernel': 'linear'}" 0.6781569741445066
+"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}" 0.7119026013309135
+

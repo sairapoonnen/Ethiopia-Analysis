@@ -258,7 +258,7 @@ if __name__ == "__main__":
     if corpus is None:
         corpus = X
     
-
+    
     X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, train_size=0.80,test_size=0.20)
 
 
@@ -296,15 +296,15 @@ if __name__ == "__main__":
     logging.info("Vectorized X train dimensions: {}".format(np.shape(X_train_vectorized)))
     logging.info("Vectorized X test dimensions: {}".format(np.shape(X_test_vectorized)))
 
-    resampled_majority_class_sizes = [1289, 1468, 1768, 2068, 2368, 2668, 2894]   #ratio of minority class to majority class
-    # resampled_majority_class_sizes = [1]   #ratio of minority class to majority class
+    # resampled_majority_class_sizes = [1289, 1468, 1768, 2068, 2368, 2668, 2894]   #ratio of minority class to majority class
+    resampled_majority_class_sizes = [1]   #ratio of minority class to majority class
     precisions = []
     recalls = []
     accuracies = []
     for majority_class_size in resampled_majority_class_sizes:
-        nmus = NearMiss(sampling_strategy= {1:majority_class_size})
-        X_train_vectorized_resampled, y_train_resampled = nmus.fit_resample(X_train_vectorized, y_train)
-        # X_train_vectorized_resampled, y_train_resampled = (X_train_vectorized, y_train) 
+        # nmus = NearMiss(sampling_strategy= {1:majority_class_size})
+        # X_train_vectorized_resampled, y_train_resampled = nmus.fit_resample(X_train_vectorized, y_train)
+        X_train_vectorized_resampled, y_train_resampled = (X_train_vectorized, y_train) 
         logging.info("After resampling: \n \t X data size  : {} y data size : {}".format(np.shape(X_train_vectorized_resampled), np.shape(y_train_resampled)))
 
 
@@ -347,6 +347,7 @@ if __name__ == "__main__":
     print(recalls)
     print(accuracies)
     
+    '''
     plt.title("Majority class undersampling trends in Perf metrics BRF (segmented unicode)", fontsize=10)
     plt.plot([173, 273, 473, 873, 1673, 3273, 4343], precisions, linewidth=2, label="precision")
     plt.plot([173, 273, 473, 873, 1673, 3273, 4343], recalls, linewidth=2, label = "recall")
@@ -356,4 +357,4 @@ if __name__ == "__main__":
     plt.legend()
     plt.savefig(os.path.join(dir_path, "graphs/test_1.png"))
     plt.show()
-    
+    '''

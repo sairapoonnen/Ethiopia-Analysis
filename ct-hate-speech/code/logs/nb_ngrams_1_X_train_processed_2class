@@ -1,0 +1,34 @@
+2021-02-21 05:05:09,654 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/X_train_processed_2class.json
+2021-02-21 05:05:09,655 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/y_train_2class.json
+2021-02-21 05:05:09,659 INFO     Data loaded
+2021-02-21 05:05:09,659 INFO     Num data points: 3446
+2021-02-21 05:05:09,659 INFO     Training data size : 2756
+2021-02-21 05:05:09,659 INFO     Testing data size: 690
+2021-02-21 05:05:09,660 INFO     Y encoded
+2021-02-21 05:05:09,661 INFO     Data vectorized using Count Vectorizer with 1 ngrams
+2021-02-21 05:05:09,796 INFO     Feature names : ['ahahaሟርተኛ', 'ሀላፊ', 'ሀላፊነት', 'ሀረር', 'ሀሪፍ', 'ሀሰተኛ', 'ሀሰት', 'ሀሳብ', 'ሀሴት', 'ሀቀኛ', 'ሀቅ', 'ሀበሻ', 'ሀብታም', 'ሀብት', 'ሀትሪክ', 'ሀዋርያ', 'ሀዋሳ', 'ሀውልት', 'ሀዘን', 'ሀያል'] ...
+2021-02-21 05:05:09,796 INFO     Vectorized X train dimensions: (2756, 5000)
+2021-02-21 05:05:09,796 INFO     Vectorized X test dimensions: (690, 5000)
+2021-02-21 05:05:09,797 INFO     After resampling: 
+ 	 X data size  : (2756, 5000) y data size : (2756,)
+2021-02-21 05:05:09,862 INFO     classifier: Naive Bayes Classifier (Grid search)
+2021-02-21 05:05:09,865 INFO     
+              precision    recall  f1-score   support
+
+           0       0.76      0.79      0.77       361
+           1       0.76      0.73      0.74       329
+
+    accuracy                           0.76       690
+   macro avg       0.76      0.76      0.76       690
+weighted avg       0.76      0.76      0.76       690
+
+2021-02-21 05:05:09,865 INFO     Grid NB Best Parameters: {'alpha': 0.3}
+2021-02-21 05:05:09,871 INFO     
+params mean_test_score
+"{'alpha': 0.001}" 0.7169744075330756
+"{'alpha': 0.01}" 0.7227807149057052
+"{'alpha': 0.1}" 0.735120597595939
+"{'alpha': 0.2}" 0.74165022751782
+"{'alpha': 0.3}" 0.7438234829953444
+"{'alpha': 0.4}" 0.7438215102974828
+
