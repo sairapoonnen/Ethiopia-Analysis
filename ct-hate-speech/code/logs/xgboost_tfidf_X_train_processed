@@ -1,0 +1,13 @@
+2021-02-14 10:53:48,211 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/X_train_processed.json
+2021-02-14 10:53:48,212 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/y_train.json
+2021-02-14 10:53:48,216 INFO     Data loaded
+2021-02-14 10:53:48,216 INFO     Num data points: 7113
+2021-02-14 10:53:48,216 INFO     Training data size : 5690
+2021-02-14 10:53:48,217 INFO     Testing data size: 1423
+2021-02-14 10:53:48,218 INFO     Y encoded
+2021-02-14 10:53:48,220 INFO     Data vectorized using Tfidf Vectorizer
+2021-02-14 10:53:48,558 INFO     Feature names : ['1104', 'aba', 'abe', 'abeti', 'abi', 'abik', 'abiri', 'abit', 'abits', 'abiyi', 'abē', 'abī', 'abīya', 'ach', 'achewi', 'achih', 'achihu', 'achini', 'achu', 'act'] ...
+2021-02-14 10:53:48,559 INFO     Vectorized X train dimensions: (5690, 5000)
+2021-02-14 10:53:48,559 INFO     Vectorized X test dimensions: (1423, 5000)
+2021-02-14 10:53:48,559 INFO     After resampling: 
+ 	 X data size  : (5690, 5000) y data size : (5690,)

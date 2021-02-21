@@ -1,0 +1,121 @@
+Original data counts : Counter({'No': 5424, 'Yes': 222})
+After oversampling: Counter({0: 5424, 1: 222})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98      1086
+           1       0.33      0.05      0.08        44
+
+    accuracy                           0.96      1130
+   macro avg       0.65      0.52      0.53      1130
+weighted avg       0.94      0.96      0.94      1130
+
+After oversampling: Counter({0: 5424, 1: 800})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.88      0.99      0.94      1088
+           1       0.65      0.10      0.17       157
+
+    accuracy                           0.88      1245
+   macro avg       0.77      0.54      0.55      1245
+weighted avg       0.85      0.88      0.84      1245
+
+After oversampling: Counter({0: 5424, 1: 1378})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.82      0.97      0.89      1080
+           1       0.67      0.19      0.30       281
+
+    accuracy                           0.81      1361
+   macro avg       0.74      0.58      0.60      1361
+weighted avg       0.79      0.81      0.77      1361
+
+After oversampling: Counter({0: 5424, 1: 1956})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.96      0.87      1101
+           1       0.73      0.30      0.42       375
+
+    accuracy                           0.79      1476
+   macro avg       0.77      0.63      0.65      1476
+weighted avg       0.78      0.79      0.76      1476
+
+After oversampling: Counter({0: 5424, 1: 2534})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.77      0.92      0.84      1078
+           1       0.73      0.43      0.54       514
+
+    accuracy                           0.77      1592
+   macro avg       0.75      0.68      0.69      1592
+weighted avg       0.76      0.77      0.75      1592
+
+After oversampling: Counter({0: 5424, 1: 3112})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.91      0.83      1094
+           1       0.76      0.48      0.59       614
+
+    accuracy                           0.76      1708
+   macro avg       0.76      0.70      0.71      1708
+weighted avg       0.76      0.76      0.74      1708
+
+After oversampling: Counter({0: 5424, 1: 3690})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.89      0.82      1077
+           1       0.78      0.59      0.68       746
+
+    accuracy                           0.77      1823
+   macro avg       0.77      0.74      0.75      1823
+weighted avg       0.77      0.77      0.76      1823
+
+After oversampling: Counter({0: 5424, 1: 4268})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.75      0.86      0.80      1095
+           1       0.78      0.62      0.69       844
+
+    accuracy                           0.76      1939
+   macro avg       0.76      0.74      0.74      1939
+weighted avg       0.76      0.76      0.75      1939
+
+After oversampling: Counter({0: 5424, 1: 4846})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.72      0.83      0.77      1073
+           1       0.78      0.65      0.71       981
+
+    accuracy                           0.74      2054
+   macro avg       0.75      0.74      0.74      2054
+weighted avg       0.75      0.74      0.74      2054
+
+After oversampling: Counter({0: 5424, 1: 5424})
+classifier: MNBClf
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.75      0.80      1101
+           1       0.77      0.88      0.82      1069
+
+    accuracy                           0.81      2170
+   macro avg       0.82      0.82      0.81      2170
+weighted avg       0.82      0.81      0.81      2170
+

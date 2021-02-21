@@ -1,0 +1,25 @@
+2021-02-14 04:07:00,476 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/X_train_processed.json
+2021-02-14 04:07:00,478 INFO     File loaded: /home/ckmj/Documents/Ethiopia-Analysis/ct-hate-speech/data/y_train.json
+2021-02-14 04:07:00,484 INFO     Data loaded
+2021-02-14 04:07:00,484 INFO     Num data points: 7113
+2021-02-14 04:07:00,484 INFO     Training data size : 5690
+2021-02-14 04:07:00,484 INFO     Testing data size: 1423
+2021-02-14 04:07:00,487 INFO     Y encoded
+2021-02-14 04:07:00,490 INFO     Data vectorized using Tfidf Vectorizer
+2021-02-14 04:07:01,017 INFO     Feature names : ['abiyahmedali', 'addis', 'aka', 'all', 'amhara', 'amharic', 'amp', 'and', 'are', 'back', 'bank', 'bbc', 'be', 'best', 'breaking', 'bro', 'btw', 'but', 'by', 'can'] ...
+2021-02-14 04:07:01,017 INFO     Vectorized X train dimensions: (5690, 5000)
+2021-02-14 04:07:01,017 INFO     Vectorized X test dimensions: (1423, 5000)
+2021-02-14 04:07:01,017 INFO     After resampling: 
+ 	 X data size  : (5690, 5000) y data size : (5690,)
+2021-02-14 04:07:02,008 INFO     classifier: BRF Classifier
+2021-02-14 04:07:02,012 INFO     
+              precision    recall  f1-score   support
+
+           0       0.36      0.51      0.42       344
+           1       0.61      0.49      0.54       773
+           2       0.47      0.48      0.48       306
+
+    accuracy                           0.49      1423
+   macro avg       0.48      0.49      0.48      1423
+weighted avg       0.52      0.49      0.50      1423
+

@@ -1,0 +1,25 @@
+2021-02-14 03:45:44,488 INFO     File loaded: /home/ckmj/Documents/Burmese-Content-Analysis/ct-hate-speech/data/X_train_processed.json
+2021-02-14 03:45:44,489 INFO     File loaded: /home/ckmj/Documents/Burmese-Content-Analysis/ct-hate-speech/data/y_train.json
+2021-02-14 03:45:44,494 INFO     Data loaded
+2021-02-14 03:45:44,494 INFO     Num data points: 7113
+2021-02-14 03:45:44,495 INFO     Training data size : 5690
+2021-02-14 03:45:44,495 INFO     Testing data size: 1423
+2021-02-14 03:45:44,497 INFO     Y encoded
+2021-02-14 03:45:44,499 INFO     Data vectorized using Tfidf Vectorizer
+2021-02-14 03:45:45,033 INFO     Feature names : ['all', 'amharic', 'amp', 'and', 'back', 'bbc', 'be', 'but', 'day', 'dm', 'dw', 'ebc', 'ethiopia', 'feeling', 'for', 'from', 'good', 'gt', 'hahaha', 'happy'] ...
+2021-02-14 03:45:45,033 INFO     Vectorized X train dimensions: (5690, 5000)
+2021-02-14 03:45:45,033 INFO     Vectorized X test dimensions: (1423, 5000)
+2021-02-14 03:45:45,033 INFO     After resampling: 
+ 	 X data size  : (5690, 5000) y data size : (5690,)
+2021-02-14 03:45:52,780 INFO     classifier: XG Boost Classifier
+2021-02-14 03:45:52,786 INFO     
+              precision    recall  f1-score   support
+
+           0       0.40      0.15      0.22       344
+           1       0.57      0.89      0.70       773
+           2       0.67      0.22      0.33       306
+
+    accuracy                           0.57      1423
+   macro avg       0.55      0.42      0.41      1423
+weighted avg       0.55      0.57      0.50      1423
+

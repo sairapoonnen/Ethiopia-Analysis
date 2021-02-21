@@ -1,0 +1,121 @@
+Original data counts : Counter({'No': 5424, 'Yes': 222})
+After oversampling: Counter({0: 5424, 1: 222})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.61      0.76      1087
+           1       0.08      0.81      0.14        43
+
+    accuracy                           0.62      1130
+   macro avg       0.53      0.71      0.45      1130
+weighted avg       0.95      0.62      0.73      1130
+
+After oversampling: Counter({0: 5424, 1: 800})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.69      0.81      1054
+           1       0.36      0.95      0.52       191
+
+    accuracy                           0.73      1245
+   macro avg       0.67      0.82      0.67      1245
+weighted avg       0.89      0.73      0.77      1245
+
+After oversampling: Counter({0: 5424, 1: 1378})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.74      0.85      1067
+           1       0.51      0.97      0.67       294
+
+    accuracy                           0.79      1361
+   macro avg       0.75      0.86      0.76      1361
+weighted avg       0.89      0.79      0.81      1361
+
+After oversampling: Counter({0: 5424, 1: 1956})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.77      0.87      1109
+           1       0.59      0.98      0.73       367
+
+    accuracy                           0.82      1476
+   macro avg       0.79      0.88      0.80      1476
+weighted avg       0.89      0.82      0.83      1476
+
+After oversampling: Counter({0: 5424, 1: 2534})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.78      0.87      1062
+           1       0.69      0.98      0.81       530
+
+    accuracy                           0.85      1592
+   macro avg       0.84      0.88      0.84      1592
+weighted avg       0.89      0.85      0.85      1592
+
+After oversampling: Counter({0: 5424, 1: 3112})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.78      0.87      1084
+           1       0.72      0.98      0.83       624
+
+    accuracy                           0.86      1708
+   macro avg       0.85      0.88      0.85      1708
+weighted avg       0.89      0.86      0.86      1708
+
+After oversampling: Counter({0: 5424, 1: 3690})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.81      0.89      1084
+           1       0.78      0.98      0.86       739
+
+    accuracy                           0.88      1823
+   macro avg       0.88      0.89      0.88      1823
+weighted avg       0.90      0.88      0.88      1823
+
+After oversampling: Counter({0: 5424, 1: 4268})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.79      0.87      1112
+           1       0.77      0.98      0.86       827
+
+    accuracy                           0.87      1939
+   macro avg       0.87      0.88      0.87      1939
+weighted avg       0.89      0.87      0.87      1939
+
+After oversampling: Counter({0: 5424, 1: 4846})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.81      0.89      1085
+           1       0.82      0.98      0.90       969
+
+    accuracy                           0.89      2054
+   macro avg       0.90      0.90      0.89      2054
+weighted avg       0.91      0.89      0.89      2054
+
+After oversampling: Counter({0: 5424, 1: 5424})
+classifier: BalancedRFClf
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.80      0.88      1083
+           1       0.83      0.99      0.90      1087
+
+    accuracy                           0.89      2170
+   macro avg       0.91      0.89      0.89      2170
+weighted avg       0.91      0.89      0.89      2170
+
